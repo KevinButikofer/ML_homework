@@ -1,0 +1,3 @@
+En utilisant knn pour la régression à la place de renvoyer la classe la plus représenté dans les plus proches voisins on renvoie la moyenne du label des plus proches voisin(qui est une valeur en régression et pas une classe).
+Code:
+pred = np.sum( k_nearest_labels)/len(k_nearest_labels)

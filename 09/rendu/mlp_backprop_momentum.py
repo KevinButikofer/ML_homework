@@ -1,3 +1,4 @@
+#Bütikofer Jaggi
 import numpy as np
 class MLP:
     '''
